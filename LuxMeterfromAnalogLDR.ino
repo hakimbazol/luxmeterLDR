@@ -10,7 +10,7 @@ This code is for you that want to make a simple lux meter using analog LDR.
 /*SETTING VARIABLES : SET YOUR VARIABLES HERE*/
 
 int analogValue, luxValue;            // Declare variable for read analog value (analogValue) and convert analog value to lux (luxValue)
-
+int analogInPin = A3;                 // Declare input pin
 #define LUX_CALC_SCALAR           1e06 // Write the coefficient of power in Excel
 #define LUX_CALC_EXPONENT         -1.909 // Write the power constant of power formula in Excel
 
